@@ -1,0 +1,16 @@
+# Chronos-2 environment (run separately — conflicts with TimesFM/Moirai).
+# Python 3.13. Used by: VaR_CEE_Chronos (and the Chronos part of ConformalFM).
+numpy==2.4.3
+pandas==3.0.1
+scipy==1.17.1
+scikit-learn==1.8.0
+torch==2.10.0
+pyarrow==23.0.1
+tqdm==4.67.3
+chronos-forecasting==2.2.2
+transformers==4.57.6
+accelerate==1.13.0
+huggingface-hub==0.36.2
+einops==0.8.2
+jupyter
+nbconvert

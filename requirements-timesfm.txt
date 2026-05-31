@@ -1,0 +1,12 @@
+# TimesFM environment (run separately — conflicts with Chronos/Moirai).
+# Python 3.13. Used by: VaR_CEE_TimesFM (and the TimesFM part of ConformalFM).
+numpy==2.4.3
+pandas==3.0.1
+scipy==1.17.1
+torch==2.10.0
+pyarrow==23.0.1
+tqdm==4.67.3
+timesfm==2.0.0
+huggingface-hub==1.7.1
+jupyter
+nbconvert

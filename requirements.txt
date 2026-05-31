@@ -1,0 +1,16 @@
+# Common environment — baselines, conformal methods, backtesting, figures.
+# Python 3.13. Used by: DataDownload, DataPipeline, GJRGARCH, HistoricalSim,
+# ConformalARIMA, ConformalLSTM, Backtesting, DMTest, Figures.
+numpy==2.4.3
+pandas==2.3.3
+scipy==1.15.3
+statsmodels==0.14.6
+arch==8.0.0
+matplotlib==3.10.8
+seaborn==0.13.2
+pandas-datareader==0.10.0
+torch==2.10.0
+pyarrow==23.0.1
+tqdm==4.67.3
+jupyter
+nbconvert

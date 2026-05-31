@@ -73,9 +73,17 @@ Outputs are written to `data/` (`raw`, `processed`, `var_forecasts`,
 
 ## Environment
 
-The foundation models require separate environments (Chronos, TimesFM, Moirai
-have conflicting dependencies); baselines and analysis run in a common
-environment.
+Tested with **Python 3.13**. The three foundation models need **separate**
+virtual environments because their dependencies conflict; the baselines,
+conformal methods, backtesting and figures share a common environment.
+
+| Environment | Install | Used by |
+|---|---|---|
+| Common | `pip install -r requirements.txt` | DataDownload, DataPipeline, GJRGARCH, HistoricalSim, ConformalARIMA, ConformalLSTM, Backtesting, DMTest, Figures |
+| Chronos | `pip install -r requirements-chronos.txt` | Chronos (+ ConformalFM) |
+| TimesFM | `pip install -r requirements-timesfm.txt` | TimesFM (+ ConformalFM) |
+| Moirai | `pip install -r requirements-moirai.txt` | Moirai (+ ConformalFM) |
+
 
 ## Data
 
