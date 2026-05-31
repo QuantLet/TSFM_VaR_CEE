@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+title: "Can Foundation Models Manage Risk? Zero-Shot VaR and ES Forecasting with Conformal Calibration in CEE Markets"
+message: "If you use this software, please cite the article below."
+type: software
+authors:
+  - family-names: Jheng
+    given-names: Siang-Li
+  - family-names: Tak
+    given-names: Rahul
+  - family-names: Găman
+    given-names: Ștefan
+  - family-names: Mazurencu-Marinescu-Pele
+    given-names: Miruna
+  - family-names: Pele
+    given-names: Daniel Traian
+    email: danpele@ase.ro
+repository-code: "https://github.com/QuantLet/TSFM_VaR_CEE"
+license: MIT
+preferred-citation:
+  type: article
+  title: "Can Foundation Models Manage Risk? Zero-Shot VaR and ES Forecasting with Conformal Calibration in CEE Markets"
+  journal: "Economic Computation and Economic Cybernetics Studies and Research"
+  year: 2026
+  authors:
+    - family-names: Jheng
+      given-names: Siang-Li
+    - family-names: Tak
+      given-names: Rahul
+    - family-names: Găman
+      given-names: Ștefan
+    - family-names: Mazurencu-Marinescu-Pele
+      given-names: Miruna
+    - family-names: Pele
+      given-names: Daniel Traian
