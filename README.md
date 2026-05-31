@@ -77,8 +77,6 @@ The foundation models require separate environments (Chronos, TimesFM, Moirai
 have conflicting dependencies); baselines and analysis run in a common
 environment.
 
-> TODO: add `requirements.txt` / environment files and exact package versions.
-
 ## Data
 
 Daily equity-index and FX series from Stooq / Yahoo Finance (see
